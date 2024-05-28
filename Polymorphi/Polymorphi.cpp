@@ -20,7 +20,8 @@ public:
     // deklarasi
     void pesan() 
     {
-
+        // Implementasi
+        cout << "Pesan dari joko" << endl;
     }
 };
 int main()
