@@ -7,11 +7,16 @@ public:
     // pure virtual function
     virtual void pesan() = 0;
 
-    // virtual functionn biasa
-    virtual void pesan()
-    {
-        cout << "Pesan dari seseorang" << endl;
-    }
+    //// virtual functionn biasa
+    //virtual void pesan()
+    //{
+    //    cout << "Pesan dari seseorang" << endl;
+    //}
+};
+
+class joko : public seseorang 
+{
+
 };
 int main()
 {
